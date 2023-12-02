@@ -298,7 +298,7 @@ class DebugBar
      */
     public static function moduleResource($path)
     {
-        return ModuleLoader::getModule('lekoala/silverstripe-debugbar')->getResource($path);
+        return ModuleLoader::getModule('pikselin/silverstripe-debugbar')->getResource($path);
     }
 
     public static function suppressJquery($flag = true)
